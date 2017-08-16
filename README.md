@@ -6,9 +6,9 @@ thumb16 thumb32 arm32 inlineHook
 
 # Example
 ```C
-#include <stdio.h>
+# include <stdio.h>
 
-#include "inlineHook.h"
+# include "inlineHook.h"
 
 int (*old_puts)(const char *) = NULL;
 
